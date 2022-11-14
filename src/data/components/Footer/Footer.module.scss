@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.8);
+  color: whitesmoke;
+  height: 50px;
+  & p {
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 600;
+  }
+}
