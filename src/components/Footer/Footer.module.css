@@ -3,18 +3,18 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: rgba(128, 128, 128, 0.8);
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(32, 170, 71, 0.8);
   color: whitesmoke;
   height: 50px;
 }
 
 .footer p {
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(248, 247, 247, 0.75);
   font-weight: 600;
 }
 /*# sourceMappingURL=Footer.module.css.map */

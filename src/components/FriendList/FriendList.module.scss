@@ -24,7 +24,7 @@
     }
     & .statusOn {
       border-radius: 50%;
-      border: 2px solid rgba(0, 128, 0, 0.6);
+      border: 2px solid rgba(33, 175, 109, 0.6);
       width: 10px;
       height: 10px;
       text-align: center;
@@ -34,7 +34,7 @@
     }
     & .statusOff {
       border-radius: 50%;
-      border: 2px solid rgba(255, 0, 0, 0.6);
+      border: 2px solid rgba(144, 7, 7, 0.79);
       width: 10px;
       height: 10px;
       text-align: center;
@@ -57,7 +57,7 @@
 
 @keyframes anim-glow-green {
   0% {
-    box-shadow: 0 0 rgba(rgba(0, 128, 0, 0.6), 1);
+    box-shadow: 0 0 rgba(rgba(33, 175, 109, 0.6), 1);
   }
   100% {
     box-shadow: 0 0 10px 8px transparent;
@@ -67,7 +67,7 @@
 
 @keyframes anim-glow-red {
   0% {
-    box-shadow: 0 0 rgba(rgba(255, 0, 0, 0.6), 1);
+    box-shadow: 0 0 rgba(rgba(144, 7, 7, 0.79), 1);
   }
   100% {
     box-shadow: 0 0 10px 8px transparent;
