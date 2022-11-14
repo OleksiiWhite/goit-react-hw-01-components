@@ -11,14 +11,14 @@
 
 .transactionHistory:hover {
   -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
-          box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .transactionHistory thead {
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(46, 22, 168);
   height: 25px;
   color: white;
 }
@@ -44,7 +44,7 @@
 }
 
 .transactionHistory tbody tr:hover {
-  background-color: rgba(255, 255, 0, 0.8);
+  background-color: rgba(168, 109, 109, 0.8);
 }
 
 .transactionHistory tbody tr td {
@@ -52,11 +52,11 @@
 }
 
 .transactionHistory tbody tr:nth-child(odd) {
-  background-color: rgba(128, 128, 128, 0.2);
+  background-color: rgba(151, 157, 226, 0.2);
 }
 
 .transactionHistory tbody tr:nth-child(odd):hover {
-  background-color: rgba(255, 255, 0, 0.8);
+  background-color: rgba(168, 109, 109, 0.8);
 }
 
 .transactionHistory tbody tr:last-of-type td:first-of-type {
