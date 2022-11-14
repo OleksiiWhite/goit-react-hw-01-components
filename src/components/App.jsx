@@ -1,3 +1,5 @@
+import { Header } from './Header/Header';
+
 import { Profile } from './Profile/Profile';
 import user from '../data/user.json';
 
@@ -17,6 +19,7 @@ export const App = () => {
 
   return (
     <>
+      <Header />
       <>
         <Profile
           username={username}

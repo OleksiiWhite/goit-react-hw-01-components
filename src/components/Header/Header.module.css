@@ -1,0 +1,20 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(32, 170, 71, 0.8);
+  color: whitesmoke;
+  height: 70px;
+}
+
+.header p {
+  color: rgba(248, 247, 247, 0.75);
+  font-size: 30px;
+  font-weight: 900;
+}
