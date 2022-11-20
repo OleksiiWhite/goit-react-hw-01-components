@@ -5,18 +5,18 @@ import styles from './FriendList.module.css';
 export const FriendList = ({ friends }) => {
   return (
     <ul className={styles.friendList}>
-      {friends.map(data => (
-        <li key={data.id} className={styles.item}>
+      {friends.map(({ id, isOnline, name, avatar }) => (
+        <li key={id} className={styles.item}>
           <span
-            className={data.isOnline ? styles.statusOn : styles.statusOff}
+            className={isOnline ? styles.statusOn : styles.statusOff}
           ></span>
           <img
             className={styles.avatar}
-            src={data.avatar}
+            src={avatar}
             alt="User avatar"
             width="48"
           />
-          <p className={styles.name}>{data.name}</p>
+          <p className={styles.name}>{name}</p>
         </li>
       ))}
     </ul>
